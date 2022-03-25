@@ -20,8 +20,8 @@
 	
 <!-- Java Script
  ================================================== -->
-<script src="../../../code.jquery.com/jquery-1.11.0.min.js"></script>
-<script src="../../../code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="js/flexslider.js"></script>
 <script src="js/jquery.isotope.min.js"></script>
 <script src="js/custom.js"></script>
@@ -55,27 +55,12 @@
 			<div id="navigation">
 				<ul id="nav">
 				
-					<li><a href="index.html">Home</a>
-						<ul>
-							<li><a href="index.html">Home 1</a></li>
-							<li><a href="index_2.html">Home 2</a></li>
-							<li><a href="index_3.html">Home 3</a></li>
-						</ul>
-					</li>
-
-					<li><a href="shortcodes.html">Shortcodes</a></li>
-					
+					<li><a href="index.html">Home</a></li>
 					<li><a href="#">Pages</a>
 						<ul>
 							<li><a href="about.html">About Us</a></li>
 							<li><a href="services.html">Services</a></li>
-							<li><a href="pricing_tables.html">Pricing Tables</a></li>
-							<li><a href="full_width.html">Full Width</a></li>
-							<li><a href="icons.html">Icons</a></li>
-							<li><a href="#">Sample Pages</a>
 								<ul>
-									<li><a href="sidebar_right.html">Page - Sidebar Right</a></li>
-									<li><a href="sidebar_left.html">Page - Sidebar Left</a></li>
 									<li><a href="blog_post.html">Single Post</a></li>
 									<li><a href="single_project.html">Single Project</a></li>
 								</ul>
@@ -86,8 +71,6 @@
 					<li><a id="current" href="#">Portfolio</a>
 						<ul>
 							<li><a href="portfolio_2.html">2 Columns</a></li>
-							<li><a href="portfolio_3.html">3 Columns</a></li>
-							<li><a href="portfolio_4.html">4 Columns</a></li>
 							<li><a href="single_project.html">Single Project</a></li>
 						</ul>
 					</li>
@@ -111,7 +94,7 @@
 	<!-- 960 Container Start -->
 	<div class="container">
 		<div class="eight columns">
-			<h2>Portfolio <span>/ 2 Columns</span></h2>
+			<h2>Portfolio <span>/ Single Project</span></h2>
 		</div>
 
 		<div class="eight columns">
@@ -119,7 +102,8 @@
 				<ul>
 					<li>You are here:</li>
 					<li><a href="#">Home</a></li>
-					<li>Portfolio</li>
+					<li><a href="#">Portfolio</a></li>
+					<li>Single Project</li>
 				</ul>
 			</nav>
 		</div>	
@@ -129,72 +113,94 @@
 </div>
 <!-- Page Title End -->
 
-
+	
 	<!-- 960 Container -->
 	<div class="container">
-	
-		<!-- Portfolio Filter -->
-		<div class="sixteen columns">
 
-			<div id="filters">
-				<ul class="option-set" data-option-key="filter">
-					<li><a href="#filter" class="selected" data-option-value="*">All</a></li>
-					<li><a href="#filter" data-option-value=".interior-design">Interior Design</a></li>
-					<li><a href="#filter" data-option-value=".architecture">Architecture</a></li>
-					<li><a href="#filter" data-option-value=".scenery">Scenery</a></li>
-					<li><a href="#filter" data-option-value=".real-estate">Real Estate</a></li>
-				</ul>
+		<div class="margin-top-40"></div>	
+
+		<!-- Slider -->
+		<div class="twelve columns">
+			<div class="project">
+				<div class="flexslider">
+					<ul class="slides">
+						<li><a href="images/portfolio_images/portfolio_3_03_large.jpg" rel="imagebox[gallery]" title="Consecteturus purus sit amet fermentum"><img src="images/portfolio_images/portfolio_3_03_large.jpg" alt="" /><div class="overlay zoom"></div></a></li>
+						<li><a href="images/portfolio_images/portfolio_3_02_large.jpg" rel="imagebox[gallery]" title="Bendum nulla sedeas consectetur"><img src="images/portfolio_images/portfolio_3_02_large.jpg" alt="" /><div class="overlay zoom"></div></a></li>
+					 </ul>
+				</div>
 			</div>
-	
+		</div>
+		
+		<div class="four columns">
+		
+				<h5 class="headline">About Project</h5>
+				<p class="tooltips">Donec seid odio dui. Nullalit libero, alea pharetra augue. Nullam id dolor ideacto vehicula <a href="https://sockmonkee.bigcartel.com/" rel="tooltip" title="Shirts and prints by Chris Sandlin">SockMonkee</a> lorem dolor.</p>
+				<p>Aenean lacinia bibendum nulla sedeas consectetur. Cras mattis consecteturus purus sit amet fermentum.</p>
+			
+				<div class="clearfix"></div>
+				<div class="margin-top-10"></div>
 
-		</div><!-- End Portfolio Filter-->
+				<h5 class="headline">Job Description</h5>
+				<ul class="list-1">
+					<li>HTML/CSS</li>
+					<li>Interface Design</li>
+					<li>Information Architecture</li>
+					<li>Implementation to WordPress</li>
+				</ul>
+				<br/>
+				<a href="#" class="button medium yellow">Launch Project</a>
+			
+		</div>
 
 	</div>
 	<!-- End 960 Container -->
 
+	<div class="margin-top-20"></div>
+
 	<!-- 960 Container -->
 	<div class="container">
 		<!-- Portfolio Content -->
-		<div id="portfolio-wrapper">
+		
+			<div class="sixteen columns">
+				<h4 class="headline">Reated Projects</h4>
+			</div>
 			
-			<!-- 1/2 Column -->
-			<div class="eight columns portfolio-item interior-design architecture">
-					<div class="item-img"><a href="images/portfolio_images/portfolio_2_01_large.jpg" rel="imagebox" title="Architecture in Melbourne"><img src="images/portfolio_images/portfolio_2_01.jpg" alt=""/><div class="overlay zoom"></div></a></div>
+			<!-- 1/4 Column -->
+			<div class="four columns portfolio-item scenery">
+					<div class="item-img"><a href="images/portfolio_images/portfolio_3_06_large.html"><img src="images/portfolio_images/portfolio_3_06.jpg" alt=""/><div class="overlay zoom"></div></a></div>
 					<div class="portfolio-item-meta">
-						<h5><a href="single_project.html">Awesome Calendar</a></h5>
-						<p>Aenean aliquet pulvinar dui, nec tempus lectus posuere quis. Proin dignissim ligula non nibh ornare tempus. Fusce iaculis diam mattis vestibulum.</p>
+						<h5><a href="single_project.html">Franky Fisticuffs</a></h5>
+						<p>Mauris sit amet ligula eget conseact etur lectus. Maecenas hendrerit lorem, suscipit sollicitudinid dolor mauris.</p>
+					</div>
+			</div>
+			
+			<!-- 1/4 Column -->
+			<div class="four columns portfolio-item interior-design architecture">
+					<div class="item-img"><a href="images/portfolio_images/portfolio_3_08_large.html"><img src="images/portfolio_images/portfolio_3_08.jpg" alt=""/><div class="overlay zoom"></div></a></div>
+					<div class="portfolio-item-meta">
+						<h5><a href="single_project.html">Magazine Illustrations</a></h5>
+						<p>Mauris sit amet ligula eget conseact etur lectus. Maecenas hendrerit lorem, suscipit sollicitudinid dolor mauris.</p>
+					</div>
+			</div>
+			
+			<!-- 1/4 Column -->
+			<div class="four columns portfolio-item scenery">
+					<div class="item-img"><a href="images/portfolio_images/portfolio_3_04_large.html"><img src="images/portfolio_images/portfolio_3_04.jpg" alt=""/><div class="overlay zoom"></div></a></div>
+					<div class="portfolio-item-meta">
+						<h5><a href="single_project.html">Package Project</a></h5>
+						<p>Mauris sit amet ligula eget conseact etur lectus. Maecenas hendrerit lorem, suscipit sollicitudinid dolor mauris.</p>
+					</div>
+			</div>
+			
+			<!-- 1/4 Column -->
+			<div class="four columns portfolio-item interior-design architecture real-estate">
+					<div class="item-img"><a href="images/portfolio_images/portfolio_3_09_large.html"><img src="images/portfolio_images/portfolio_3_09.jpg" alt=""/><div class="overlay zoom"></div></a></div>
+					<div class="portfolio-item-meta">
+						<h5><a href="single_project.html">Bloomberg Businessweek</a></h5>
+						<p>Mauris sit amet ligula eget conseact etur lectus. Maecenas hendrerit lorem, suscipit sollicitudinid dolor mauris.</p>
 					</div>
 			</div>
 
-			<!-- 1/2 Column -->
-			<div class="eight columns portfolio-item architecture">
-					<div class="item-img"><a href="single_project.html"><img src="images/portfolio_images/portfolio_2_02.jpg" alt=""/><div class="overlay zoom"></div></a></div>
-					<div class="portfolio-item-meta">
-						<h5><a href="single_project.html">SockMonkee</a></h5>
-						<p>Suspendisse vel leo nec augue dignissim imperdiet. Etiam bibendum metus quis turpis aliquet ut vestibulum arcu gravida. Nulla pellentesque sapien.</p>
-					</div>
-			</div>
-			
-			<!-- 1/2 Column -->
-			<div class="eight columns portfolio-item interior-design architecture real-estate">
-					<div class="item-img"><a href="single_project.html"><img src="images/portfolio_images/portfolio_2_03.jpg" alt=""/><div class="overlay zoom"></div></a></div>
-					<div class="portfolio-item-meta">
-						<h5><a href="single_project.html">Monster Calendar</a></h5>
-						<p>Aenean aliquet pulvinar dui, nec tempus lectus posuere quis. Proin dignissim ligula non nibh ornare tempus. Fusce iaculis diam mattis vestibulum.</p>
-					</div>
-			</div>
-			
-			<!-- 1/2 Column -->
-			<div class="eight columns portfolio-item scenery real-estate">
-					<div class="item-img"><a href="single_project.html"><img src="images/portfolio_images/portfolio_2_04.jpg" alt=""/><div class="overlay zoom"></div></a></div>
-					<div class="portfolio-item-meta">
-						<h5><a href="single_project.html">Real Estate Application</a></h5>
-						<p>Aenean aliquet pulvinar dui, nec tempus lectus posuere quis. Proin dignissim ligula non nibh ornare tempus. Fusce iaculis diam mattis vestibulum.</p>
-					</div>
-			</div>
-			
-		</div>
-		<!-- End Portfolio Content -->
 	</div>
 	<!-- End 960 Container -->
 
