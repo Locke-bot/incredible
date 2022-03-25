@@ -1,0 +1,18 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 25 Mar 2022 11:37:37 at https://www.vasterad.com/themes/incredible/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +https://www.vasterad.com/themes/incredible/index.html
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F  -%F  -%l "en, *" https://www.vasterad.com/themes/incredible/index.html -O1 "C:\My Web Sites\Incredible" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +https://www.vasterad.com/themes/incredible/index.html )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:38:27	Error: 	"Not Found" (404) at link https://www.vasterad.com/themes/incredible/images/portfolio_images/portfolio_3_06_large.jpg (from https://www.vasterad.com/themes/incredible/single_project.html)
+11:38:27	Error: 	"Not Found" (404) at link https://www.vasterad.com/themes/incredible/images/portfolio_images/portfolio_3_08_large.jpg (from https://www.vasterad.com/themes/incredible/single_project.html)
+11:38:27	Error: 	"Not Found" (404) at link https://www.vasterad.com/themes/incredible/images/portfolio_images/portfolio_3_04_large.jpg (from https://www.vasterad.com/themes/incredible/single_project.html)
+11:38:27	Error: 	"Not Found" (404) at link https://www.vasterad.com/themes/incredible/images/portfolio_images/portfolio_3_09_large.jpg (from https://www.vasterad.com/themes/incredible/single_project.html)
+11:38:27	Error: 	"Not Found" (404) at link https://www.vasterad.com/themes/incredible/css/blank.gif (from https://www.vasterad.com/themes/incredible/css/layerslider.css)
+11:38:27	Error: 	"Not Found" (404) at link https://www.vasterad.com/themes/incredible/images/shadow-v.png (from https://www.vasterad.com/themes/incredible/css/imagebox.css)
+11:38:27	Error: 	"Not Found" (404) at link https://www.vasterad.com/themes/incredible/images/shadow-h.png (from https://www.vasterad.com/themes/incredible/css/imagebox.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 50 seconds : 109 links scanned, 101 files written (6112778 bytes overall) [5354932 bytes received at 107098 bytes/sec], 1993296 bytes transferred using HTTP compression in 55 files, ratio 30%, 21.8 requests per connection
+(7 errors, 0 warnings, 0 messages)
